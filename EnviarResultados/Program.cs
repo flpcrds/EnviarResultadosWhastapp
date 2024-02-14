@@ -21,8 +21,8 @@ namespace EnviarResultadosWhatsapp
                     {
                         var phone = $"+{line}";
                         var file = $"https://sendpdf-3793.twil.io/{line}.pdf";
-                        var accountSid = "ACa72c5531381f08c8d757390b7f7ce85a";
-                        var authToken = "86256c63c68121ecacc5306a152b3b20";
+                        var accountSid = "xxx";
+                        var authToken = "xxx";
 
                         TwilioClient.Init(accountSid, authToken);
 
